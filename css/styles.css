@@ -1,0 +1,24 @@
+* {
+    box-sizing: border-box; /*nos permite ajustar los componentes al tamaño de su padre contamplando padding y margin*/
+}
+
+body {
+    background-color: #f4ede4;
+    font-family: sans-serif;
+}
+/*=============================navigation==============================*/
+.hide {
+    display: none;
+}
+
+.nav ul.hide {
+    display: hide;
+}
+
+/*=============================components==============================*/
+.card {
+    padding: 15px;
+    height: 100%;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15);
+    background-color: white;
+}
